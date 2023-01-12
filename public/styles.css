@@ -1,0 +1,116 @@
+.header-item {
+    margin: 0 1rem 0 1rem;
+}
+
+.footer {
+
+    text-align: center;
+
+}
+
+.main {
+    margin: 1%;
+}
+
+
+.title {
+    text-align: center;
+    padding-top: 7%;
+}
+
+.kratisi {
+    margin-top: 1.5%;
+    margin-bottom: 4%;
+}
+
+.carouseli {
+    padding: 0 25% 0 25%;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+
+.testimonial-image {
+    width: 20%;
+    border-radius: 20%;
+}
+
+.chalarosi {
+    margin: 10% 0 10% 0;
+    text-align: center;
+    padding: 0 10% 0 10%;
+}
+
+.popina-img {
+    margin-right: 5%;
+    border-radius: 30%;
+}
+
+.batoni {
+    color: gray;
+}
+
+.social {
+    text-align: center;
+}
+
+.font {
+    margin: 0 1% 0 1%;
+    color: rgb(79, 79, 92);
+}
+
+
+#carouselExampleControls {
+    height: 200px;
+}
+
+.images {
+    width: 100%;
+    border-radius: 10%;
+}
+
+/* Contact EJS */
+
+.p-info {
+    margin-bottom: 0;
+}
+
+.contact-form {
+    margin-top: 3%;
+}
+
+.main-div-contact {
+    margin: 0 1% 0 1%;
+}
+
+.textarea-container {
+    height: 200px;
+}
+
+/* Images Grid APTS EJS ............................................................................... */
+
+.gallery-div {
+    margin: 0 1% 0 1%;
+}
+
+.bg-image {
+    background-image: url('https://mdbcdn.b-cdn.net/img/Photos/Others/images/76.webp');
+    height: 100vh;
+}
+
+.about-text {
+    color: rgb(11, 2, 92);
+    text-align: center;
+    padding: 15% 5%;
+}
+
+.gallery-hr {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.gallery-titles {
+    text-align: center;
+    margin-top: 3%;
+}

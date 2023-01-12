@@ -1,0 +1,28 @@
+<%- include("partials/header") %>
+
+    <div class="bg-image">
+        <div class="main-div-contact">
+            <div class="contact-info">
+                <h1>Στοιχεία επικοινωνίας.</h1>
+                <p class="p-info">Τηλ.: 6940818459</p>
+                <p class="p-info">Email: info@popina.gr</p>
+                <p class="p-info">Τοοοολϊας μόνοοοοο!!!!</p>
+            </div>
+            <form method="post" class="contact-form col-lg-4">
+
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Καταχωρήστε το email σας.</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Κείμενο.</label>
+                    <textarea class="form-control textarea-container" id="exampleFormControlTextarea1"
+                        rows="3"></textarea>
+                </div>
+
+                <button class="btn btn-dark send-button" type="submit" name="submit">Αποστολή</button>
+            </form>
+        </div>
+    </div>
+    <%- include("partials/footer") %>
