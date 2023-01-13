@@ -116,6 +116,10 @@
     margin-top: 3%;
 }
 
+#first-big-carousel .carousel-inner .carousel-item>img {
+    zoom: 105%;
+}
+
 @-webkit-keyframes zoom {
     from {
         -webkit-transform: scale(1, 1);
