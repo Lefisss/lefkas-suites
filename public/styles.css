@@ -23,7 +23,7 @@
     margin-bottom: 4%;
 }
 
-.carouseli {
+.carousel-testimonials {
     padding: 0 25% 0 25%;
     text-align: center;
     width: 100%;
@@ -116,6 +116,17 @@
     margin-top: 3%;
 }
 
+.gallery-subtitles {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.email-margin {
+    margin-left: 1%;
+}
+
+/* ........................................................................................ */
+
 #first-big-carousel .carousel-inner .carousel-item>img {
     zoom: 105%;
 }
@@ -143,4 +154,8 @@
 #first-big-carousel .carousel-inner .carousel-item>img {
     -webkit-animation: zoom 20s;
     animation: zoom 20s;
+}
+
+.font:hover {
+    color: brown;
 }
