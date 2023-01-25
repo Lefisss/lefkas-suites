@@ -1,74 +1,78 @@
 <%- include("partials/header") %>
 
-    <!-- <div class="bg-image"> -->
-    <div class="main-div-contact">
-        <div class="contact-info">
-            <h1>Στοιχεία επικοινωνίας.</h1>
-            <p class="p-info">Τηλ.: 6940818459</p>
-            <p class="p-info">Email: info@popina.gr</p>
-            <p class="p-info">Τοοοολϊας μόνοοοοο!!!!</p>
+    <body id="contact-body">
+        <!-- <div class="bg-image"> -->
+        <div class="main-div-contact">
+            <div class="contact-info">
+                <h1>BOOKING INFOS</h1>
+                <p class="p-info">Pricing can variate a little between high and low season. Our standard rates may
+                    differ from platform to platform. Contact us for lowest price guaranatee.</p>
+                <h1>OUR ADDRESS</h1>
+                <p class="p-info">Karavela 45, Lefkada</p>
+
+            </div>
+
+
+            <form method="post" class="contact-form">
+
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="">
+                            <label for="name" class="form-label">Όνομα</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+
+                        <div class="">
+                            <label for="adults" class="form-label">Αριθμός επισκεπτών (ενήλικοι)</label>
+                            <input type="text" class="form-control" id="adults">
+                        </div>
+
+                        <div class="">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+
+                        <div class="">
+                            <label for="arrival" class="form-label">Ημερομηνία άφιξης</label>
+                            <input type="text" class="form-control" id="arrival">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="">
+                            <label for="lastName" class="form-label">Επώνυμο</label>
+                            <input type="text" class="form-control" id="lastName">
+                        </div>
+                        <div class="">
+                            <label for="children" class="form-label">Αριθμός παιδιών</label>
+                            <input type="text" class="form-control" id="children">
+                        </div>
+                        <div class="">
+                            <label for="phoneNumber" class="form-label">Κινητό τηλέφωνο</label>
+                            <input type="text" class="form-control" id="phoneNumber">
+                        </div>
+                        <div class="">
+                            <label for="departure" class="form-label">Ημερομηνία αναχώρησης</label>
+                            <input type="text" class="form-control" id="departure">
+                        </div>
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="textArea" class="form-label">Σχόλια</label>
+                        <textarea class="form-control textarea-container" id="textArea" rows="3"></textarea>
+                    </div>
+                </div>
+                <button class="btn btn-dark send-button" type="submit" name="submit">Αποστολή</button>
         </div>
 
 
-        <form method="post" class="contact-form">
 
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <div class="">
-                        <label for="name" class="form-label">Όνομα</label>
-                        <input type="text" class="form-control" id="name">
-                    </div>
-
-                    <div class="">
-                        <label for="adults" class="form-label">Αριθμός επισκεπτών (ενήλικοι)</label>
-                        <input type="text" class="form-control" id="adults">
-                    </div>
-
-                    <div class="">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
-                    </div>
-
-                    <div class="">
-                        <label for="arrival" class="form-label">Ημερομηνία άφιξης</label>
-                        <input type="text" class="form-control" id="arrival">
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <div class="">
-                        <label for="lastName" class="form-label">Επώνυμο</label>
-                        <input type="text" class="form-control" id="lastName">
-                    </div>
-                    <div class="">
-                        <label for="children" class="form-label">Αριθμός παιδιών</label>
-                        <input type="text" class="form-control" id="children">
-                    </div>
-                    <div class="">
-                        <label for="phoneNumber" class="form-label">Κινητό τηλέφωνο</label>
-                        <input type="text" class="form-control" id="phoneNumber">
-                    </div>
-                    <div class="">
-                        <label for="departure" class="form-label">Ημερομηνία αναχώρησης</label>
-                        <input type="text" class="form-control" id="departure">
-                    </div>
-
-                </div>
-                <div class="mb-3">
-                    <label for="textArea" class="form-label">Σχόλια</label>
-                    <textarea class="form-control textarea-container" id="textArea" rows="3"></textarea>
-                </div>
-            </div>
-            <button class="btn btn-dark send-button" type="submit" name="submit">Αποστολή</button>
-    </div>
-
-
-
-    </form>
+        </form>
 
 
 
 
 
-    </div>
+        </div>
+    </body>
     <!-- </div> -->
     <%- include("partials/footer") %>

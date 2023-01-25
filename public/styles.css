@@ -1,5 +1,16 @@
+body {
+    font-family: 'Prata', serif;
+    font-weight: 400;
+    background-color: #fffff6;
+}
+
+.popina-txt {
+    font-weight: 500;
+}
+
 .header-item {
     margin: 0 1rem 0 1rem;
+    font-weight: 500;
 }
 
 .footer {
@@ -36,10 +47,65 @@
     border-radius: 20%;
 }
 
+
+.chalarosi-main {
+    padding: 3%;
+    margin: 7% 0 4%;
+}
+
 .chalarosi {
-    margin: 10% 0 10% 0;
-    text-align: center;
-    padding: 0 10% 0 10%;
+    text-align: left;
+}
+
+.chalarosi h1 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.p-chal {
+    font-weight: 600;
+}
+
+.chalarosi-img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+@media (max-width:991px) {
+    .chalarosi {
+        padding-top: 2%;
+        text-align: center;
+    }
+}
+
+.various-main {
+    padding: 0 10%;
+    margin-bottom: 4%;
+}
+
+.various-1 {
+    padding-right: 10%;
+}
+
+.various-1 h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: rgb(99, 99, 99);
+}
+
+@media (max-width:991px) {
+    .various-1 {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .various-2 {
+        text-align: center;
+    }
+
+    .various-main {
+        margin-top: 8%;
+    }
 }
 
 .popina-img {
