@@ -4,6 +4,10 @@ body {
     background-color: #fffff6;
 }
 
+/* .navbar-lef {
+    height: 50px;
+} */
+
 .popina-txt {
     font-weight: 500;
 }
@@ -155,21 +159,29 @@ body {
     height: 200px;
 }
 
+.main-contact-form {
+    padding: 0 10%;
+}
+
+.inquiry-div label {
+    margin-top: 3%;
+}
+
 /* Images Grid APTS EJS ............................................................................... */
 
 .gallery-div {
     margin: 0 1% 0 1%;
 }
 
-.bg-image {
-    background-image: url('https://mdbcdn.b-cdn.net/img/Photos/Others/images/76.webp');
-    height: 100vh;
+.about-us-main p {
+    margin-top: 3%;
 }
 
 .about-text {
-    color: rgb(11, 2, 92);
     text-align: center;
     padding: 15% 5%;
+    font-weight: 800;
+    font-size: 2rem;
 }
 
 .gallery-hr {
@@ -224,4 +236,49 @@ body {
 
 .font:hover {
     color: brown;
+}
+
+.carousel-rooms h3 {
+    margin: 2% 0 6%;
+}
+
+.book-button {
+    margin: 2% 0 5% 0;
+}
+
+.info-row {
+    padding: 2% 2% 2% 2%;
+}
+
+.info-txt {
+    padding-right: 10%;
+}
+
+.info-row h1 {
+    font-weight: 800;
+}
+
+.info-row h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.info-row p {
+    font-weight: 600;
+}
+
+.info-hours-div {
+    margin-top: 4%;
+}
+
+.our-address {
+    margin-top: 5%;
+}
+
+.info-row hr {
+    width: 50%;
+}
+
+.contact-info {
+    margin-right: 2%;
 }
