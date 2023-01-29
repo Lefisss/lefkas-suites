@@ -4,9 +4,6 @@ body {
     background-color: #fffff6;
 }
 
-/* .navbar-lef {
-    height: 50px;
-} */
 
 .popina-txt {
     font-weight: 500;
@@ -18,9 +15,7 @@ body {
 }
 
 .footer {
-
     text-align: center;
-
 }
 
 .main {
@@ -59,6 +54,9 @@ body {
 
 .chalarosi {
     text-align: left;
+    padding: 1% 1% 2% 1%;
+    background-color: #969696;
+    color: white;
 }
 
 .chalarosi h1 {
@@ -70,21 +68,33 @@ body {
     font-weight: 600;
 }
 
-.chalarosi-img {
-    max-height: 100%;
+
+.chalarosi-div-img {
+    padding: 0;
     max-width: 100%;
+    overflow: hidden;
+}
+
+.chalarosi-img {
+    height: 100%;
+    zoom: 80%;
 }
 
 @media (max-width:991px) {
     .chalarosi {
         padding-top: 2%;
         text-align: center;
+
+    }
+
+    .chalarosi-img {
+        zoom: 108%;
     }
 }
 
 .various-main {
     padding: 0 10%;
-    margin-bottom: 4%;
+    margin-bottom: 6%;
 }
 
 .various-1 {
@@ -97,14 +107,15 @@ body {
     color: rgb(99, 99, 99);
 }
 
+.various-2 {
+    text-align: justify;
+}
+
 @media (max-width:991px) {
     .various-1 {
         padding-right: 0;
         text-align: center;
-    }
-
-    .various-2 {
-        text-align: center;
+        margin-bottom: 1%;
     }
 
     .various-main {
@@ -143,6 +154,66 @@ body {
 
 /* Contact EJS */
 
+
+
+.info-txt {
+    background-color: #969696;
+    color: white;
+    padding: 1% 0 1% 1.5%;
+    padding-right: 10%;
+}
+
+@media (max-width:800px) {
+    .info-txt {
+        padding: 1% 0 1% 3.5%;
+    }
+}
+
+.info-img-div {
+    overflow: hidden;
+    padding: 0;
+}
+
+.info-img {
+    zoom: 103%;
+}
+
+@media (max-width:991px) {
+    .info-img {
+        zoom: 117%;
+    }
+}
+
+
+.info-row h1 {
+    font-weight: 800;
+}
+
+.info-row h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.info-row p {
+    font-weight: 600;
+}
+
+.info-hours-div {
+    margin-top: 4%;
+}
+
+.our-address {
+    margin-top: 5%;
+}
+
+.info-row hr {
+    width: 50%;
+}
+
+.contact-info {
+    margin-right: 2%;
+}
+
 .p-info {
     margin-bottom: 0;
 }
@@ -151,9 +222,6 @@ body {
     margin-top: 3%;
 }
 
-.main-div-contact {
-    margin: 0 1% 0 1%;
-}
 
 .textarea-container {
     height: 200px;
@@ -167,14 +235,30 @@ body {
     margin-top: 3%;
 }
 
+
+
+/* ABOUT US EJS ...............................................................................*/
+
+.about-us-main p {
+    text-align: justify;
+}
+
+.about-us-main img {
+    margin-bottom: 2%;
+}
+
+.about-us-main h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: rgb(99, 99, 99);
+}
+
+/* ABOUT US EJS ...............................................................................*/
+
 /* Images Grid APTS EJS ............................................................................... */
 
 .gallery-div {
     margin: 0 1% 0 1%;
-}
-
-.about-us-main p {
-    margin-top: 3%;
 }
 
 .about-text {
@@ -190,6 +274,9 @@ body {
 }
 
 .gallery-titles {
+    font-size: 3rem;
+    font-weight: 800;
+    color: rgb(99, 99, 99);
     text-align: center;
     margin-top: 3%;
 }
@@ -238,47 +325,14 @@ body {
     color: brown;
 }
 
+.carousel-rooms {
+    margin-bottom: 0;
+}
+
 .carousel-rooms h3 {
     margin: 2% 0 6%;
 }
 
 .book-button {
     margin: 2% 0 5% 0;
-}
-
-.info-row {
-    padding: 2% 2% 2% 2%;
-}
-
-.info-txt {
-    padding-right: 10%;
-}
-
-.info-row h1 {
-    font-weight: 800;
-}
-
-.info-row h3 {
-    font-size: 1.5rem;
-    font-weight: 900;
-}
-
-.info-row p {
-    font-weight: 600;
-}
-
-.info-hours-div {
-    margin-top: 4%;
-}
-
-.our-address {
-    margin-top: 5%;
-}
-
-.info-row hr {
-    width: 50%;
-}
-
-.contact-info {
-    margin-right: 2%;
 }
