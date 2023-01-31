@@ -155,9 +155,17 @@ body {
     border-radius: 10%;
 }
 
-/* Contact EJS */
+/* Contact EJS ..............................................................................*/
 
+#contact-body {
+    padding: 0 1%;
+}
 
+@media (max-width:576px) {
+    #contact-body {
+        padding: 0 2%;
+    }
+}
 
 .info-txt {
     background-color: #395B64;
@@ -172,6 +180,7 @@ body {
     }
 }
 
+
 .info-img-div {
     overflow: hidden;
     padding: 0;
@@ -181,6 +190,7 @@ body {
     zoom: 103%;
 }
 
+
 @media (max-width:991px) {
     .info-img {
         zoom: 117%;
@@ -188,16 +198,16 @@ body {
 }
 
 
-.info-row h1 {
+#contact-body h1 {
     font-weight: 800;
 }
 
-.info-row h3 {
+#contact-body h3 {
     font-size: 1.5rem;
     font-weight: 900;
 }
 
-.info-row p {
+#contact-body p {
     font-weight: 600;
 }
 
@@ -238,7 +248,29 @@ body {
     margin-top: 3%;
 }
 
+.inquiry-div input {
+    font-family: 'Times New Roman', Times, serif;
+}
 
+.iframe-div {
+    text-align: center;
+    margin: 0;
+    background-color: #395B64;
+    padding: 1.5% 2%;
+}
+
+.iframe-div2 {
+    background-color: #A5C9CA;
+    color: white;
+    padding: 1% 0 1% 1.5%;
+    padding-right: 10%;
+}
+
+@media (max-width:800px) {
+    .iframe-div2 {
+        padding: 3%;
+    }
+}
 
 /* ABOUT US EJS ...............................................................................*/
 
@@ -329,7 +361,7 @@ body {
 }
 
 .font:hover {
-    color: brown;
+    color: #395B64;
 }
 
 
