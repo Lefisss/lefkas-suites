@@ -207,6 +207,12 @@ body {
     font-weight: 900;
 }
 
+#contact-body h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+}
+
 #contact-body p {
     font-weight: 600;
 }
@@ -261,9 +267,13 @@ body {
 
 .iframe-div2 {
     background-color: #A5C9CA;
-    color: white;
-    padding: 1% 0 1% 1.5%;
-    padding-right: 10%;
+    color: #2C3333;
+    padding: 1% 1.5%;
+
+}
+
+.iframe-div2 p {
+    font-size: 1.1rem;
 }
 
 @media (max-width:800px) {
