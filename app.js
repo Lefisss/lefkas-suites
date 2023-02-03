@@ -3,6 +3,7 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const emailer = require(__dirname + "/email.js");
 
+
 const app = express();
 
 app.use(express.static("public"));
@@ -36,6 +37,7 @@ app.post("/contact", function (req, res) {
     const email = req.body.email;
     const phonenumber = req.body.phonenumber;
     const message = req.body.message;
+
 
     emailer.sendEmail(fullname, arrival, email, phonenumber, message);
 
