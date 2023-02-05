@@ -35,6 +35,11 @@ body {
     margin-bottom: 4%;
 }
 
+.carousel-caption {
+    top: 10%;
+    bottom: auto;
+}
+
 .carousel-testimonials {
     padding: 0 25% 0 25%;
     text-align: center;

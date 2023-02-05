@@ -17,8 +17,8 @@ exports.sendEmail = function (fullname, arrival, email, phonenumber, message) {
         host: 'smtp.gmail.com',
         secure: false,
         auth: {
-            user: 'lefterispour92@gmail.com',
-            pass: 'dfdkrgwrxmztklng'
+            user: '',
+            pass: ''
         }
     });
 
