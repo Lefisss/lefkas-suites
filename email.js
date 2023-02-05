@@ -2,7 +2,6 @@
 
 exports.sendEmail = function (fullname, arrival, email, phonenumber, message) {
     var nodemailer = require('nodemailer');
-    const hbs = require('nodemailer-express-handlebars');
 
     const { sendEmail } = require("./email");
 

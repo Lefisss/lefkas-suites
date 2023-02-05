@@ -242,6 +242,11 @@ body {
     margin-bottom: 0;
 }
 
+.mailto {
+    text-decoration-line: none;
+    color: white;
+}
+
 .contact-form {
     margin-top: 3%;
 }
@@ -266,12 +271,13 @@ body {
 .iframe-div {
     text-align: center;
     margin: 0;
-    background-color: #395B64;
+    background-color: #FADA9D;
     padding: 1.5% 2%;
 }
 
 .iframe-div2 {
-    background-color: #A5C9CA;
+    background-color: #FADA9D;
+    /*FADA9D, A5C9CA*/
     color: #2C3333;
     padding: 1% 1.5%;
 
