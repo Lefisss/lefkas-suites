@@ -40,7 +40,7 @@ body {
     bottom: auto;
 }
 
-.carousel-testimonials {
+/* .carousel-testimonials {
     padding: 0 25% 0 25%;
     text-align: center;
     width: 100%;
@@ -51,22 +51,22 @@ body {
 .testimonial-image {
     width: 20%;
     border-radius: 20%;
-}
+} */
 
 
-.chalarosi-main {
+.chal-main {
     padding: 3%;
     margin: 7% 0 4%;
 }
 
-.chalarosi {
+.chal {
     text-align: left;
     padding: 1% 1% 2% 1%;
     background-color: #395B64;
     color: white;
 }
 
-.chalarosi h1 {
+.chal h1 {
     font-size: 3rem;
     font-weight: 800;
 }
@@ -76,25 +76,25 @@ body {
 }
 
 
-.chalarosi-div-img {
+.chal-div-img {
     padding: 0;
     max-width: 100%;
     overflow: hidden;
 }
 
-.chalarosi-img {
+.chal-img {
     height: 100%;
     zoom: 80%;
 }
 
 @media (max-width:991px) {
-    .chalarosi {
+    .chal {
         padding-top: 2%;
         text-align: center;
 
     }
 
-    .chalarosi-img {
+    .chal-img {
         zoom: 108%;
     }
 }
