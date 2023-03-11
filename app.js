@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
-const emailer = require(__dirname + "/email.js");
+
 
 
 const app = express();

@@ -118,6 +118,26 @@ body {
     text-align: justify;
 }
 
+.mini-desc {
+    text-align: justify;
+}
+
+.carousel-rooms h3 {
+    margin: 2% 0 6%;
+}
+
+@media (max-width:991px) {
+    .mini-desc {
+        margin-bottom: 6%;
+    }
+
+    .carousel-rooms h3 {
+        margin: 2% 0 1%;
+    }
+}
+
+
+
 @media (max-width:991px) {
     .various-1 {
         padding-right: 0;
@@ -189,10 +209,12 @@ body {
 .info-img-div {
     overflow: hidden;
     padding: 0;
+    /* padding: 1.5% 2%; */
 }
 
 .info-img {
     zoom: 103%;
+    width: 100%;
 }
 
 
@@ -391,9 +413,7 @@ body {
     margin-bottom: 0;
 }
 
-.carousel-rooms h3 {
-    margin: 2% 0 6%;
-}
+
 
 .book-button .btn {
     margin: 2% 0 5% 0;
