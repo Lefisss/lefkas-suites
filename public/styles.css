@@ -40,20 +40,6 @@ body {
     bottom: auto;
 }
 
-/* .carousel-testimonials {
-    padding: 0 25% 0 25%;
-    text-align: center;
-    width: 100%;
-    margin-bottom: 10%;
-}
-
-
-.testimonial-image {
-    width: 20%;
-    border-radius: 20%;
-} */
-
-
 .chal-main {
     padding: 3%;
     margin: 7% 0 4%;
@@ -118,7 +104,9 @@ body {
     text-align: justify;
 }
 
+
 .mini-desc {
+    padding-top: 10%;
     text-align: justify;
 }
 
@@ -128,6 +116,7 @@ body {
 
 @media (max-width:991px) {
     .mini-desc {
+        padding-top: 0;
         margin-bottom: 6%;
     }
 
@@ -161,6 +150,7 @@ body {
 }
 
 .social {
+    padding-top: 0.5%;
     text-align: center;
 }
 
@@ -268,6 +258,12 @@ body {
     text-decoration-line: none;
     color: white;
 }
+
+.location-desc p {
+    text-align: justify;
+}
+
+
 
 .contact-form {
     margin-top: 3%;
